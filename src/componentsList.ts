@@ -11,23 +11,6 @@ type MenuItems = Partial<
 >
 
 export const menuItems: MenuItems = {
-  Accordion: {
-    children: {
-      Accordion: {},
-      AccordionItem: {},
-      AccordionButton: {},
-      AccordionPanel: {},
-      AccordionIcon: {},
-    },
-  },
-  Alert: {
-    children: {
-      Alert: {},
-      AlertDescription: {},
-      AlertIcon: {},
-      AlertTitle: {},
-    },
-  },
   AspectRatio: {},
   AvatarGroup: {
     rootParentType: 'Avatar',
@@ -36,49 +19,18 @@ export const menuItems: MenuItems = {
   AvatarBadge: {
     rootParentType: 'Avatar',
   },
-  Badge: {},
   Box: {},
-  Breadcrumb: {
-    children: {
-      BreadcrumbItem: {},
-      BreadcrumbLink: {},
-    },
-  },
-  Button: {},
   Center: {},
   Container: {},
   Checkbox: {},
-  CircularProgress: {},
-  CloseButton: {},
   Code: {},
   Divider: {},
   Flex: {},
-  FormControl: {
-    children: {
-      FormControl: {},
-      FormLabel: {},
-      FormHelperText: {},
-      FormErrorMessage: {},
-    },
-  },
   Grid: {},
   Heading: {},
   Highlight: {},
   Icon: {},
-  IconButton: {},
   Image: {},
-  Input: {},
-  InputGroup: {
-    rootParentType: 'Input',
-    children: {
-      InputGroup: {},
-      Input: {},
-      InputLeftAddon: {},
-      InputRightAddon: {},
-      InputRightElement: {},
-      InputLeftElement: {},
-    },
-  },
   Link: {},
   List: {
     children: {
@@ -86,45 +38,132 @@ export const menuItems: MenuItems = {
       ListItem: {},
     },
   },
-  Kbd: {},
-  NumberInput: {},
-  Progress: {},
   Radio: {},
   RadioGroup: {
     rootParentType: 'Radio',
   },
   SimpleGrid: {},
-  Spinner: {},
-  Select: {},
-  Skeleton: {},
-  SkeletonCircle: {},
-  SkeletonText: {},
   Stack: {},
-  Stat: {
-    children: {
-      StatGroup: {},
-      Stat: {},
-      StatLabel: {},
-      StatNumber: {},
-      StatHelpText: {},
-      StatArrow: {},
-    },
-  },
-  Switch: {},
-  Tabs: {
-    children: {
-      Tabs: {},
-      Tab: {},
-      TabList: {},
-      TabPanel: {},
-      TabPanels: {},
-    },
-  },
   Tag: {},
   Text: {},
-  Textarea: {},
   Menu: { soon: true },
 }
+
+// export const menuItems: MenuItems = {
+//   Accordion: {
+//     children: {
+//       Accordion: {},
+//       AccordionItem: {},
+//       AccordionButton: {},
+//       AccordionPanel: {},
+//       AccordionIcon: {},
+//     },
+//   },
+//   Alert: {
+//     children: {
+//       Alert: {},
+//       AlertDescription: {},
+//       AlertIcon: {},
+//       AlertTitle: {},
+//     },
+//   },
+//   AspectRatio: {},
+//   AvatarGroup: {
+//     rootParentType: 'Avatar',
+//   },
+//   Avatar: {},
+//   AvatarBadge: {
+//     rootParentType: 'Avatar',
+//   },
+//   Badge: {},
+//   Box: {},
+//   Breadcrumb: {
+//     children: {
+//       BreadcrumbItem: {},
+//       BreadcrumbLink: {},
+//     },
+//   },
+//   Button: {},
+//   Center: {},
+//   Container: {},
+//   Checkbox: {},
+//   CircularProgress: {},
+//   CloseButton: {},
+//   Code: {},
+//   Divider: {},
+//   Flex: {},
+//   FormControl: {
+//     children: {
+//       FormControl: {},
+//       FormLabel: {},
+//       FormHelperText: {},
+//       FormErrorMessage: {},
+//     },
+//   },
+//   Grid: {},
+//   Heading: {},
+//   Highlight: {},
+//   Icon: {},
+//   IconButton: {},
+//   Image: {},
+//   Input: {},
+//   InputGroup: {
+//     rootParentType: 'Input',
+//     children: {
+//       InputGroup: {},
+//       Input: {},
+//       InputLeftAddon: {},
+//       InputRightAddon: {},
+//       InputRightElement: {},
+//       InputLeftElement: {},
+//     },
+//   },
+//   Link: {},
+//   List: {
+//     children: {
+//       List: {},
+//       ListItem: {},
+//     },
+//   },
+//   Kbd: {},
+//   NumberInput: {},
+//   Progress: {},
+//   Radio: {},
+//   RadioGroup: {
+//     rootParentType: 'Radio',
+//   },
+//   SimpleGrid: {},
+//   Spinner: {},
+//   Select: {},
+//   Skeleton: {},
+//   SkeletonCircle: {},
+//   SkeletonText: {},
+//   Stack: {},
+//   Stat: {
+//     children: {
+//       StatGroup: {},
+//       Stat: {},
+//       StatLabel: {},
+//       StatNumber: {},
+//       StatHelpText: {},
+//       StatArrow: {},
+//     },
+//   },
+//   Switch: {},
+//   Tabs: {
+//     children: {
+//       Tabs: {},
+//       Tab: {},
+//       TabList: {},
+//       TabPanel: {},
+//       TabPanels: {},
+//     },
+//   },
+//   Tag: {},
+//   Text: {},
+//   Textarea: {},
+//   Menu: { soon: true },
+// }
 
 export const componentsList: ComponentType[] = [
   'Accordion',
